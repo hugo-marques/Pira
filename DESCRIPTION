@@ -1,0 +1,29 @@
+Type: Package
+Package: PIRA_LAB
+Version: 0.0.1
+Title: Functions for make fish ecology easier
+Description: Working on that...
+Date: 2020-03-19
+Authors@R: person("Hugo", "Marques", email = "biohmarques@gmail.com", 
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0002-9361-9341"))
+Depends:
+    R (>= 3.6.0)
+Imports:
+    magrittr,
+    dplyr,
+    readr,
+    tidyr,
+    ggplot2,
+    openxlsx
+License: MIT + file LICENSE
+URL: https://github.com/hugo-marques/Pira
+BugReports: https://github.com/hugo-marques/Pira/issues
+LazyData: TRUE
+Encoding: UTF-8
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 2.1.0),
+    tidyverse
+VignetteBuilder: knitr
